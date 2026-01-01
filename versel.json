@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "api/**/*.go",
+      "use": "@vercel/go",
+      "config": {
+        "includeFiles": ["templates/**"]
+      }
+    }
+  ]
+}
